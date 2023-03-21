@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;/*去除邊界*/
+    margin: 0;
+    background: darkred;
+}
+.header {
+    display: flex;
+    background: black;
+}
+.header img {
+    width: 95%;
+    height: auto;
+}
+#center {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 1px black;/*陰影*/
+}
+#word1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+#word2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+#btn {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+}
+.middle {
+    display: block;
+    width: 480px;
+    height: 270px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin: 0 auto;/*置中*/
+}
